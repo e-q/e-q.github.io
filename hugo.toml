@@ -1,0 +1,32 @@
+baseURL = 'https://e-q.github.io/'
+languageCode = 'en-us'
+title = 'Eric Quintero'
+theme = 'PaperMod'
+pygmentsUseClasses = false
+sectionPagesMenu = 'main'
+
+[params]
+mainSections = ['about','posts']
+
+[params.profileMode]
+enabled = false
+
+[params.homeInfoParams]
+# Title = "Eric's Blog"
+Content= "An experiment in synthesis and communication"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/e-q"
+[[params.socialIcons]]
+name = "orcid"
+url = "https://orcid.org/0000-0002-4269-3445"
+
+[params.assets]
+disableHLJS = true
+disableScrollBarStyle = true
+
+[markup.highlight]
+noClasses = false
+style = 'okcolors'
+

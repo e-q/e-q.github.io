@@ -1,0 +1,103 @@
+:root {
+  --base-05: #010102;
+  --base-20: #16151a;
+  --base-25: #212126;
+  --base-30: #2e2d31;
+  --base-35: #3b3a3e;
+  --base-40: #48474a;
+  --base-45: #565557;
+  --base-55: #727172;
+  --base-65: #908f8e;
+  --base-75: #afadab;
+  --base-80: #bfbdba;
+  --base-85: #d0cdc9;
+  --base-90: #e0ded8;
+  --base-95: #f1eee8;
+  --base-99: #fefcf4;
+  --blue-dark: #267aa3;
+  --blue-lite: #73c2ee;
+  --cyan-dark: #128184;
+  --cyan-lite: #5ecbce;
+  --green-dark: #2e835f;
+  --green-lite: #79cca4;
+  --magenta-dark: #b92e91;
+  --magenta-lite: #ff88d6;
+  --orange-dark: #9e6034;
+  --orange-lite: #eaa679;
+  --purple-dark: #8061a0;
+  --purple-lite: #c7a7ea;
+  --red-dark: #cc2443;
+  --red-lite: #ff9498;
+  --yellow-dark: #886e1f;
+  --yellow-lite: #d0b56a;
+  --theme: var(--base-99);
+  --entry: var(--base-95);
+  --primary: var(--base-30);
+  --secondary: var(--base-45);
+  --tertiary: var(--green-dark);
+  --tertiary-bg: var(--green-lite);
+  --link: var(--blue-dark);
+  --content: var(--base-30);
+  --code-block-bg: var(--base-30);
+  --code-bg: var(--base-99);
+  --border: var(--base-90);
+}
+
+.dark {
+  --theme: var(--base-20);
+  --entry: var(--base-25);
+  --primary: var(--base-90);
+  --secondary: var(--base-75);
+  --tertiary: var(--green-lite);
+  --tertiary-bg: var(--green-dark);
+  --link: var(--blue-lite);
+  --content: var(--base-90);
+  --code-block-bg: var(--base-30);
+  --code-bg: var(--base-25);
+  --border: var(--base-30);
+}
+
+a {
+  text-decoration-line: underline;
+  text-decoration-color: var(--link);
+}
+
+a:hover {
+  color: var(--link);
+  text-decoration-color: var(--link);
+}
+
+.post-content a {
+  box-shadow: none;
+}
+
+.footer a,
+.footer a:hover {
+  border-bottom: none;
+  text-decoration-color: var(--secondary);
+}
+
+.anchor {
+  text-decoration-line: none;
+}
+
+.first-entry {
+  min-height: unset;
+}
+
+.post-title,
+.post-link {
+  text-decoration-line: underline;
+  text-decoration-color: var(--tertiary);
+}
+
+#menu .active {
+  border-bottom-color: var(--tertiary);
+}
+#menu a {
+  text-decoration-line: none;
+}
+
+.top-link {
+  background: var(--tertiary-bg);
+}
