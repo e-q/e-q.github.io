@@ -39,7 +39,7 @@
   --link: var(--blue-dark);
   --content: var(--base-30);
   --code-block-bg: var(--base-30);
-  --code-bg: var(--base-99);
+  --code-bg: var(--base-95);
   --border: var(--base-90);
 }
 
@@ -100,4 +100,8 @@ a:hover {
 
 .top-link {
   background: var(--tertiary-bg);
+}
+
+.list {
+    background: var(--theme);
 }
